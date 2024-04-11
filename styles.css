@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Background color for the whole page */
+  font-family: "Montserrat", sans-serif; /* Montserrat font */
+}
+
+img {
+  display: block;
+  margin-bottom: 24px;
+  width: 300px;
+  height: 300px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.yes-btn,
+.no-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.yes-btn {
+  background-color: #4caf50; /* Green */
+  color: white;
+  margin-right: 10px;
+}
+
+.no-btn {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
