@@ -47,3 +47,12 @@ img {
 a {
   text-decoration: none;
 }
+
+#final-img{
+    width: 300px;
+    height: 400px;
+}
+
+#final-text{
+    padding: 0px 16px;
+}
